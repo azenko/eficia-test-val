@@ -13,7 +13,9 @@
         "fruitcake/laravel-cors": "^1.0",
         "guzzlehttp/guzzle": "^6.3",
         "laravel/framework": "^7.0",
-        "laravel/tinker": "^2.0"
+        "laravel/tinker": "^2.0",
+        "nesbot/carbon": "^2.32",
+        "php-mqtt/client": "^0.1.2"
     },
     "require-dev": {
         "facade/ignition": "^2.0",
@@ -34,7 +36,8 @@
     },
     "autoload": {
         "psr-4": {
-            "App\\": "app/"
+            "App\\": "app/",
+            "Valentin\\": "src/"
         },
         "classmap": [
             "database/seeds",
